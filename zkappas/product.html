@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/product-detail.css">
+        <link rel="icon" href="../images/rolex.png" type="image/png">
+        <script src="https://kit.fontawesome.com/65ea4e24e1.js" crossorigin="anonymous"></script>
+    <title>Product-detail</title>
+</head>
+<body>
+
+    
+    <div class="top">
+
+    <select id="countries" name="countries">
+
+        <option value="INDIA">INDIA</option>
+        <option value="USA">USA</option>
+        <option value="RUSSIA">RUSSIA</option>
+
+    </select>
+
+        <div class="location">
+            <i class="fa-solid fa-location-dot"></i>
+            <span>STORE</span>
+        </div>
+
+        <div class="regoptions">
+            <a href="#">REGISTER</a>
+            <span>/</span>
+            <a href="#">SIGN IN</a>
+        </div>
+
+    </div>
+
+    <div class="head">
+        <div class="logo">
+            <img src="../images/rolex.png" alt="logo" class="logo">
+            <span class="logoname">ROLEX</span>
+        </div>
+
+            <nav>
+            <ul>
+                <li><select name="" id="" class="shopmenu">
+                    <option value=""><a href="#">Shop Menu</a></option>
+                    <option value=""><a href="#">Classic</a></option>
+                    <option value=""><a href="#">Premium</a></option>
+                </select></li>
+
+                <li><a href="#">Our Story</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            </nav>
+
+
+        <div class="icons">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-regular fa-heart"></i>
+            <div class="cart-wrapper">
+                <i class="fa-solid fa-bag-shopping" id="cart"></i>
+                <span class="cart-count">0</span>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="product-detail-container">
+        <div class="image-section">
+        <img id="productImage" />
+    </div>
+
+    <div class="info-section">
+    <h1 id="productName"></h1>
+    <p id="productDescription"></p>
+    <h2 id="productPrice"></h2>
+
+    <div class="buttons">
+    <button id="addToCart">Add to Cart</button>
+    <button id="buyNow">Buy Now</button>
+    </div>
+    </div>
+    </div>
+
+    <hr>
+
+        <div class="nav">
+        <ul>
+            <li><a href="#">Details</a></li>
+            <li><a href="#">Reviews</a></li>
+            <li><a href="#">Specifications</a></li>
+            <li><a href="#">FAQ</a></li>
+        </ul>
+        </div>
+
+        <div class="content">
+            
+            <div class="details">
+            <h2>Product Details</h2>
+            <p id="short">"The Rolex Teddy is a luxurious timepiece that combines elegance with playful design elements.
+                Featuring a unique teddy bear motif on the dial,
+                this watch is crafted with high-quality materials including a stainless steel case and a sapphire crystal.
+                The Rolex Teddy is powered by an automatic movement,
+                ensuring precise timekeeping."</p>
+            </div>
+
+             <div class="reviews">
+            <h2>Customer Reviews</h2>
+            <p>No reviews yet. Be the first to review this product!</p>
+            <input type="text" placeholder="Your Name" class="review-input"/>
+            <br/>
+            <textarea placeholder="Your Review" class="review-textarea"></textarea>
+            <br/>
+            <button class="submit-review">Submit Review</button>
+            </div>
+            
+            <div class="specifications">
+            <h2>Specifications</h2>
+            <ul>
+                <li>Material: Stainless Steel</li>
+                <li>Water Resistance: 100 meters</li>
+                <li>Movement: Automatic</li>
+                <li>Warranty: 5 years</li>
+            </ul>
+        </div>
+
+        <div class="faq">
+            <h2>Frequently Asked Questions</h2>
+            <h3>Q: What is the warranty period for this watch?</h3>
+            <p>A: The watch comes with a 5-year warranty covering manufacturing defects.</p>
+            <h3>Q: Is this watch water-resistant?</h3>
+            <p>A: Yes, it is water-resistant up to 100 meters.</p>
+        </div>
+
+        </div>
+
+        <footer class="footer-wrapper">
+
+    <div class="footer-middle">
+    <div class="footer-col">
+      <h5>LINKS</h5>
+      <a href="#">About us</a>
+      <a href="#">Contact us</a>
+      <a href="#">Customer Service</a>
+      <a href="#">FAQs</a>
+      <a href="#">Sitemap</a>
+    </div>
+
+    <div class="footer-col">
+      <h5>INFORMATION</h5>
+      <a href="#">Terms of Service</a>
+      <a href="#">Refund policy</a>
+      <a href="#">Press</a>
+    </div>
+
+    <div class="footer-payments">
+      <img src="images/visa.png" alt="Visa">
+      <img src="images/round.png" alt="Mastercard">
+      <img src="images/apple-pay.png" alt="Apple Pay">
+      <img src="images/shopping.png" alt="American Express">
+    </div>
+  </div>
+
+    <div class="footer-bottom">
+    <div class="socials">
+      <i class="fa-brands fa-facebook-f"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-youtube"></i>
+      <i class="fa-brands fa-pinterest"></i>
+      <i class="fa-brands fa-linkedin-in"></i>
+    </div>
+
+    <p>© 2025 Rolex.</p>
+  </div>
+
+
+<script src="js/products.js"></script>
+<script src="js/product-detail.js"></script>
+
+
+    
+</body>
+</html>
